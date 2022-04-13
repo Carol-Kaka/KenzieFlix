@@ -1,0 +1,192 @@
+body,article,main,aside,footer,nav,ul,li,a,h1,h2,h3,figure,figcaption{
+    background-color: black;
+    border: none;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    width: 1280px;
+    height: 720px;
+}
+
+.container {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+
+}
+
+.logo {
+    display: flex;    
+    align-content: center;
+    justify-content: center;  
+    width: 229px;
+    height: 68px;
+    margin: 42px 534px 73px 517px ;
+
+}    
+
+.paragráfo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;   
+}
+
+.texto{
+    color:  white;
+    font-size: 32px;
+    text-align: center;
+    margin: 73px 482px 61px 464px; 
+    width: 334px;
+    height: 42px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 194px;
+    margin: 61px 290px 102px 272px;    
+}
+
+.container1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.frame1 {
+    width: 160px;
+    height: 160px; 
+    overflow: hidden;  
+    border-radius: 8px;
+}
+
+.name1 {
+    color: #9C9C9C;
+    width: 34px;
+    height: 18px;
+    font-size: 14px;  
+}
+
+.frame1:hover > img {
+    transform: scale(1.3);
+    transition: all 0.5s ease;
+} 
+
+.frame1:hover {
+    transition: all 0.5s ease;
+    border: solid white;
+}
+
+.frame2 {
+    width: 160px;
+    height: 160px; 
+    overflow: hidden;  
+    border-radius: 8px;
+}
+
+.name2 {
+    color: #9C9C9C;
+    width: 59px;
+    height: 18px;
+    font-size: 14px;  
+}
+
+.frame2:hover > img {
+    transform: scale(1.3);
+    transition: all 0.5s ease;
+} 
+
+.frame2:hover {
+    transition: all 0.5s ease;
+    border: solid white;
+}
+
+.frame3 {
+    width: 160px;
+    height: 160px; 
+    overflow: hidden;  
+    border-radius: 8px;
+}
+
+.name3 {
+    color: #9C9C9C;
+    width: 32px;
+    height: 18px;
+    font-size: 14px;  
+}
+
+.frame3:hover > img {
+    transform: scale(1.3);
+    transition: all 0.5s ease;
+}
+
+.frame3:hover {
+    transition: all 0.5s ease;
+    border: solid white;
+}
+
+.frame4 {
+    position: relative;
+    width: 160px;
+    height: 160px; 
+    overflow: visible;  
+    border-radius: 8px;
+}
+
+.name4 {
+    color: #9C9C9C;
+    width: 101px;
+    height: 18px;
+    font-size: 14px;  
+}
+
+.frame6 {
+    position: absolute;
+    width: 160px;
+    height: 160px; 
+    overflow: visible;  
+    z-index: 1;
+    float: none;   
+}
+
+.frame6 :hover{
+    border: solid white;
+    border-radius: 8px;
+    opacity: 10%;
+    top: 200px;
+}
+
+.caixa {
+    display: flex;
+    width: 100%;   
+}
+    
+.button{
+    display: inline-block;
+    width: 206px;
+    height: 50px;    
+    border-radius: 8px;
+    border: solid white;       
+    color:  #9C9C9C;
+    margin: 102px 546px 88px 528px;
+}
+
+.titulo{
+    text-align: center;
+    width: 118px;
+    height: 21px;
+    font-size: 16px;      
+    margin: 14px 44px 15px;
+}
+  
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
